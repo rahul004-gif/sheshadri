@@ -43,8 +43,8 @@ body{
 .company-name{
   font-size:34px;
   font-weight:900;
-  font-family:"Bradley Hand ITC", cursive;
-  color:#002fff50;
+  font-family:'Poppins', sans-serif;
+  color:#00006e;
   letter-spacing:1px;
 }
 
@@ -178,7 +178,16 @@ nav a:hover{
   color:#512da8;
   box-shadow:0 8px 25px rgba(0,0,0,0.05);
   transition:0.3s;
+
+
+
+  p{
+    font-family: 'Poppins', sans-serif; 
+    font-weight:400;
+    color:#483d3d;
 }
+}
+
 
 .service-box:hover{
   transform:translateY(-8px);
